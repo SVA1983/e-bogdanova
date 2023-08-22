@@ -1,3 +1,81 @@
+.top-info {
+  padding-top: 50px;
+}
+
+.for {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.for .heading {
+  margin: 64px 0 32px;
+  line-height: 59px;
+  height: 59px;
+  border-radius: nullpx;
+}
+
+.for__content {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.for__item {
+  height: 415px;
+  grid-column: span 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: fill 11.4s;
+}
+
+.for__item:hover {
+  transform: scale(1.03);
+  transition: all 0.3s;
+}
+
+.for__item_1 {
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  background-position: center;
+  background-image: url(img/info-content.png);
+}
+
+.for__item_2 {
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  background-position: center;
+  background-image: url(img/info-content.png);
+}
+
+.for__item_3 {
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  background-position: center;
+  background-image: url(img/info-content.png);
+}
+
+.for__item_4 {
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  background-position: center;
+  background-image: url(img/info-content.png);
+}
+
+.for__item-name {
+  font-size: 34px;
+  line-height: 41px;
+  align-items: center;
+  text-align: center;
+} 
 * {
   margin: 0;
   padding: 0;
@@ -304,62 +382,16 @@ body {
   color: white;
 }
 
-.for {
-  margin-top: 64px;
-}
-
-.for .heading {
-  margin: 64px 0 32px;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 59px;
-  height: 59px;
-  border-radius: nullpx;
-}
-
-.for__content {
-  display: grid;
-  gap: 32px;
-  grid-template-columns: repeat(12, 1fr);
-}
-
-.for__item {
-  height: 415px;
-  grid-column: span 6;
+.logo-social {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: fill 11.4s;
+  justify-content: space-between;
+}
+.logo-social .img-social {
+  width: 50px;
+  height: 50px;
 }
 
-.for__item:hover {
-  transform: scale(1.03);
-  transition: all 0.3s;
-}
-
-.for__item_1 {
-  background-image: url(img/info-content.jpeg);
-}
-
-.for__item_2 {
-  background-image: url(img/top-img.jpeg;);
-}
-
-.for__item_3 {
-  background-image: url(img/info-ing3.png);
-}
-
-.for__item_4 {
-  background-image: url(img/info-img4.jpeg);
-}
-
-.for__item_5 {
-  background-image: url(img/for-5.jpg);
-}
-
-.for__item-name {
-  font-size: 34px;
-  line-height: 41px;
-  align-items: center;
-  text-align: center;
-} /*# sourceMappingURL=style.css.map */
+.top-galary {
+  width: 100%;
+  height: 200px;
+}/*# sourceMappingURL=style.css.map */
