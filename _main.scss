@@ -5,7 +5,7 @@
   }
   body {
     // background-image: url(img/body-color.jpeg);
-    background-color: rgb(249, 249, 249);
+    background-color: white;
   }
   
   
@@ -124,6 +124,8 @@
   .top-content__box {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    transition: fill 11.4s;
   }
   
   .top-content .content {
@@ -132,9 +134,20 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border: ridge;
+    border: 0.5px solid rgba(2, 2, 2, 0.8);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(253, 18, 18);
+    font-size: 24px;
+    
+    
   }
-  
+  .content:hover {
+    transform: scale(1.03);
+    transition: all 0.3s;
+  }
   .top-content .content__logo {
     width: 150px;
     height: 155px;
@@ -159,8 +172,7 @@
   
   .top-informations .info {
     margin-bottom: 130px;
-    padding-left: 40px;
-    padding-right: 40px;
+    
   }
   
   .top-informations .info__title {
@@ -200,10 +212,13 @@
     width: 508px;
     height: 250px;
   }
-  
+  .license-title {
+    margin-bottom: 50px;
+    text-align: center;
+  }
   .top-informations .license__img {
-    width: 319px;
-    height: 400px;
+    width: 350px;
+    height: 170px;
     padding-left: 40px;
     margin-bottom: 130px;
   }
@@ -228,6 +243,11 @@
   
   .top-informations .popular .product-text-info {
     display: grid;
+    border-right: 0.5px solid rgba(2, 2, 2, 0.8);
+  }
+  .product-text-center {
+    border-top: 0.5px solid rgba(2, 2, 2, 0.8);
+    border-bottom: 0.5px solid rgba(2, 2, 2, 0.8);
   }
   
   .top-informations .popular .product-price {
@@ -240,6 +260,8 @@
     display: flex;
     justify-content: space-between;
     height: 300px;
+    border: 0.5px solid rgba(2, 2, 2, 0.8);
+
   }
   
   .top-informations .popular .product-form-price {
