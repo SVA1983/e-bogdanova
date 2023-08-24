@@ -82,23 +82,54 @@
   
   .top .header .header__button-box {
     display: flex;
+    flex-direction: row;
     gap: 20px;
     width: 420px;
     height: 40px;
     padding-left: 40px;
+    gap: 10px;
+    
+  }
+  .header__button-box {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    
   }
   
-  .top .header__button {
+  .header__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(170, 62, 83);
     width: 200px;
     height: 40px;
     text-align: center;
     color: white;
+    text-decoration: none;
     border-radius: 10px;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    outline: none; 
+    border-style: inset;
+    border-color: rgba(160, 160, 160, 0.642);
+    font-family: sans-serif;
+   
+    
   }
+     
+  .header__button:hover {
+    background: rgb(190, 54, 9);
+    
+  }
+  
+  .header__button:active {
+    background: red;
+    color: white;
+  }
+
+  
   
   .top .title {
     color: rgb(202, 13, 51);
@@ -222,6 +253,10 @@
     padding-left: 40px;
     margin-bottom: 130px;
   }
+  .license__img:hover {
+    transform: scale(1.5);
+    transition: all 0.3s;
+  }
 
   .courses-box {
     display: grid;
@@ -259,6 +294,33 @@
     width: 100%;
     height: 100%;
     background-color: rgb(249, 201, 146);
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    outline: none; 
+    border-style: inset;
+    border-color: rgba(160, 160, 160, 0.642);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .courses-item-button:hover {
+    background: rgb(255, 218, 206);
+    
+  }
+  .courses-item-button:active {
+    background: rgb(249, 201, 146);
+    color: white;
+  }
+
+  
+  .header__button:active {
+    background: red;
+    color: white;
   }
   
   .top-informations .popular {
