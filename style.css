@@ -747,4 +747,43 @@ body {
 *[dir=rtl] .select-form, :root:lang(ar) .select-form, :root:lang(iw) .select-form {
   background-position: left 0.7em top 50%, 0 0;
   padding: 0.6em 0.8em 0.5em 1.4em;
+}
+
+.top-contacts {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.contacts-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-contacts {
+  background: white;
+  padding: 0;
+}
+
+.contacts-link {
+  width: 433px;
+}
+
+.button-contacts {
+  width: 433px;
+  border: none;
+  height: 50px;
+  background: #d7d1d1;
+  border-bottom: 1px solid #000000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
 }/*# sourceMappingURL=style.css.map */
