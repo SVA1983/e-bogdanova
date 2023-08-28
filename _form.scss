@@ -48,7 +48,8 @@
       &__box {
           display: flex;
           flex-direction: column;
-          gap: 41px;     
+          gap: 41px; 
+          background-color: rgb(244, 244, 244);    
       }
       &__total {
               font-weight: 400;
