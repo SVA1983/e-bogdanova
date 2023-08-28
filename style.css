@@ -147,6 +147,7 @@ body {
   height: 130px;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
+  gap: 5px;
 }
 
 .menu-link-box {
@@ -183,6 +184,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.top .header .menu__link:hover {
+  background: rgb(213, 213, 213);
+}
+
+.menu__link:hover {
+  background: rgb(107, 107, 107);
 }
 
 .top .header .header__button-box {
@@ -557,6 +565,10 @@ body {
   border-radius: 4px;
 }
 
+.button-services {
+  width: 174px;
+}
+
 .footer {
   padding-top: 30px;
   width: 100%;
@@ -648,7 +660,6 @@ body {
 
 .service-title {
   margin-top: 64px;
-  text-align: center;
 }
 
 .box-service-list {
